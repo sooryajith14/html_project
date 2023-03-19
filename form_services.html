@@ -6,10 +6,10 @@
         }
         .dv{
         background-color:#8e8d91;
-        width:50%;
-        height:70%;
-        margin-top:100px;
-        margin-left:380px;
+        width:80%;
+        height:90%;
+        margin-top:50px;
+        margin-left:150px;
         align-items:center;
         }
         .dv h1{
@@ -20,23 +20,32 @@
          }
         .label{
         padding-top:20px;
-        margin-left:250px;
+        margin-left:500px;
         font-size:20px;
         }
         .input{
-        margin-left:250px;
+        margin-left:500px;
          width:250px;
          height:30px;
         }
-        button{
+        .form_btn{
         width:100px;
         height:30px;
-        margin-left:330px;
+        margin-left:570px;
         margin-top:20px;
+        }
+        .form_a{
+        color:black;
+        width:100px;
+        height:30px;
+        margin-left:610px;
         }
         button:hover{
         background-color:#303030;
         color:white;
+        }
+        .checkbox{
+        margin-left:500px;
         }
 
 
@@ -48,27 +57,43 @@
    <h1>Fill the details</h1>
         <table></table>
         <tr>
-            <td><label for="name" class="label">Name</label></td><br>
+            <td><label for="name" class="label">Name:</label></td><br>
             <td><input class="input" type="text" name="name" placeholder="enter your name" required></td>
         </tr><br><br>
          <tr>
-            <td><label for="firm_name" class="label">Firm name</label></td><br>
-            <td><input class="input" type="text" name="name" placeholder="enter your firm name" required></td>
+            <td><label for="address" class="label">Address:</label></td><br>
+             <td><textarea class="input" type="text" name="name" placeholder="Enter your address" rows="2" cols="3" required></textarea></td>
         </tr><br><br>
          <tr>
-            <td><label for="email" class="label">Email</label></td><br>
+            <td><label for="email" class="label">Email:</label></td><br>
             <td><input class="input" type="email" name="name" placeholder="abc@gmail.com" required></td>
         </tr><br><br>
          <tr>
-            <td><label for="phno" class="label">phone no</label></td><br>
+            <td><label for="phno" class="label">Phone no:</label></td><br>
             <td><input class="input" type="text" name="name" placeholder="123-456-7890" required></td>
         </tr><br><br>
+        <tr>
+            <td><label for="file" class="label">Upload your resume:</label></td><br>
+            <td><input class="input" type="file" name="name" required></td>
+        </tr><br><br>
          <tr>
-            <td><label for="firm_name" class="label">Service you need</label></td><br>
+            <td><label for="file" class="label">Like to work as:</label></td><br>
+            <td><input class="checkbox" type="checkbox" name="name" value="web designer" required>
+            <label for="web designer">Web designer</label>
+            <input class="" type="checkbox" name="name" value="web developer" required>
+            <label for="web designer">Web developer</label><br>
+            <input class="checkbox" type="checkbox" name="name" value="app developer" required>
+            <label for="web designer">App developer</label>
+            <td><input class="" type="checkbox" name="name" value="software developer" required>
+            <label for="web designer">software developer</label></td>
+        </tr><br><br>
+         <tr>
+            <td><label for="firm_name" class="label">About you:</label></td><br>
              <td><textarea class="input" type="text" name="name"  required></textarea></td>
         </tr><br>
         </table>
-        <button type="submit">Submit</button>
+        <button class="form_btn" type="submit">Submit</button>
+        <a href="index.html"class="form_a"  >Back</a>
     </form>
 
 </div>
