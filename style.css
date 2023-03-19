@@ -70,6 +70,9 @@ float:left;
 margin-top:100px;
 border-right:1px solid white;
 }
+.div4 a:hover{
+color:#303030;
+}
 .div5{
 background-color:#8e8d91;
 width:33.333333333%;

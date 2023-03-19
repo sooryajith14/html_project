@@ -1,0 +1,76 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+        body{
+        background-color:#303030;
+        }
+        .dv{
+        background-color:#8e8d91;
+        width:50%;
+        height:70%;
+        margin-top:100px;
+        margin-left:380px;
+        align-items:center;
+        }
+        .dv h1{
+        text-align:center;
+        color:white;}
+         form{
+         align-items:center;
+         }
+        .label{
+        padding-top:20px;
+        margin-left:250px;
+        font-size:20px;
+        }
+        .input{
+        margin-left:250px;
+         width:250px;
+         height:30px;
+        }
+        button{
+        width:100px;
+        height:30px;
+        margin-left:330px;
+        margin-top:20px;
+        }
+        button:hover{
+        background-color:#303030;
+        color:white;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="dv">
+    <form>
+   <h1>Fill the details</h1>
+        <table></table>
+        <tr>
+            <td><label for="name" class="label">Name</label></td><br>
+            <td><input class="input" type="text" name="name" placeholder="enter your name" required></td>
+        </tr><br><br>
+         <tr>
+            <td><label for="firm_name" class="label">Firm name</label></td><br>
+            <td><input class="input" type="text" name="name" placeholder="enter your firm name" required></td>
+        </tr><br><br>
+         <tr>
+            <td><label for="email" class="label">Email</label></td><br>
+            <td><input class="input" type="email" name="name" placeholder="abc@gmail.com" required></td>
+        </tr><br><br>
+         <tr>
+            <td><label for="phno" class="label">phone no</label></td><br>
+            <td><input class="input" type="text" name="name" placeholder="123-456-7890" required></td>
+        </tr><br><br>
+         <tr>
+            <td><label for="firm_name" class="label">Service you need</label></td><br>
+             <td><textarea class="input" type="text" name="name"  required></textarea></td>
+        </tr><br>
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+</body>
+</html>
